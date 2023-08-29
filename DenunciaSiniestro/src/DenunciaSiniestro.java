@@ -295,7 +295,7 @@ public class DenunciaSiniestro {
         }       
         do {
             System.out.print("\n¿Desea regresar al menú de daños? (S/N): ");
-            tecla2 = scanner.nextLine();
+            tecla2 = scanner.next();
         } while (!tecla2.equalsIgnoreCase("S") && !tecla2.equalsIgnoreCase("N"));
         } while (tecla2.equalsIgnoreCase("S"));
     System.out.println("\nSu denuncia ha sido registrada y será procesada a la brevedad.\n"
